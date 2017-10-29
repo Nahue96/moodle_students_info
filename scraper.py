@@ -5,7 +5,7 @@ import scraperwiki
 import lxml.html
 #
 # # Read in a page
-html = scraperwiki.scrape("http://ourthe.com.ar")
+html = scraperwiki.scrape("http://google.com")
 #
 # # Find something on the page using css selectors
 root = lxml.html.fromstring(html)
